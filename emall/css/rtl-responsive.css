@@ -1,0 +1,235 @@
+@media only screen and (max-width: 767px){
+	/*** Reset ***/
+	body #ts-ajax-add-to-cart-message {
+		padding: 15px 44px 15px 20px;/* rtl */
+		left: 50%;
+		right: auto;
+	}
+	body #ts-ajax-add-to-cart-message:before {
+		left: auto;
+		right: 20px;/* rtl */
+	}
+	#ts-search-sidebar .close {
+		right: auto;
+		left: 14px;/* rtl */
+	}
+	
+	/*** Header ***/
+	.header-v6 .header-middle .header-right {
+		margin-right: auto;/* rtl */
+		margin-left: 0;
+	}
+	.ts-mobile-icon-toggle .icon {
+		padding: 0 10px 0 0;/* rtl */
+	}
+	
+	/*** Menu ***/
+	#group-icon-header .ts-sidebar-content {
+		right: 0;
+		left: auto;
+		transform: translateX(var(--ts-sidebar-content-width));
+	}
+	#group-icon-header .close {
+		right: calc(var(--ts-sidebar-content-width) + 10px);/* rtl */
+		left: auto;
+		transform: translateX(var(--ts-sidebar-content-width));
+	}
+	.mobile-menu-wrapper ul.menu li .menu-icon {
+		margin-left: 5px;/* rtl */
+		margin-right: 0;
+	}
+	.mobile-menu-wrapper span.ts-menu-drop-icon {
+		margin: 0 auto 0 0;/* rtl */
+		text-align: left;/* rtl */
+	}
+	#group-icon-header .menu-title span {
+		padding: 0 30px 0 0;/* rtl */
+	}
+	.mobile-menu-wrapper .menu-sub-label {
+		right: auto;
+		left: 0;/* rtl */
+		transform: translateX(-80%);/* rtl */
+	}
+	
+	/*** Shop Page ***/
+	.ts-sidebar > .close {
+		left: auto;
+		right: calc(var(--ts-sidebar-content-width) + 12px);/* rtl */
+		transform: translateX(var(--ts-sidebar-content-width));
+	}
+	:is(.style-popup,.style-top) .ts-floating-sidebar.active .close {
+		left: auto;
+		right: calc(var(--ts-sidebar-content-width) + 12px);/* rtl */
+	}
+	.style-popup .ts-floating-sidebar .ts-sidebar-content,
+	.style-top .ts-floating-sidebar .ts-sidebar-content,
+	body.archive.woocommerce-page .ts-sidebar > aside {
+		transform: translateX(var(--ts-sidebar-content-width));
+	}
+	
+	/*** Product Detail ***/
+	.woocommerce .gallery-layout-vertical .woocommerce-product-gallery .product-label,
+	.woocommerce .woocommerce-product-gallery .product-label {
+        inset: 20px 20px auto auto;/* rtl */
+    }
+	div.woocommerce-product-gallery .flex-direction-nav .flex-nav-prev {
+		right: 0;/* rtl */
+		left: auto;
+	}
+	div.woocommerce-product-gallery .flex-direction-nav .flex-nav-next {
+		left: 0;/* rtl */
+		right: auto;
+	}
+	.single-product-top-thumbnail-slider .swiper-button-prev {
+		right: 20px;/* rtl */
+		left: auto;
+	}
+	.single-product-top-thumbnail-slider .swiper-button-next {
+		left: 20px;/* rtl */
+		right: auto;
+	}
+	.woocommerce .woocommerce-result-count + nav.woocommerce-pagination {
+		margin: 0;/* rtl */
+	}
+	
+	/*** Product Group ***/
+	.woocommerce div.product form.cart table.group_table th,
+	.woocommercel div.product form.cart table.group_table td {
+		padding: 0 !important; /* rtl */
+	}
+	
+	/* Fixed Add To Cart */
+	.woocommerce div.product.form-cart-fixed .single_variation_wrap .woocommerce-variation .woocommerce-variation-price:not(:empty) {
+		margin: 0 0 10px 10px;/* rtl */
+	}
+	.woocommerce div.product.form-cart-fixed .single_variation_wrap .woocommerce-variation > * {
+		float: right;
+	}
+	.woocommerce div.product.form-cart-fixed form.cart .label .ts-value,
+	.woocommerce div.product.form-cart-fixed form.cart .label label {
+		float: right; /* rtl */
+	}
+	.woocommerce div.product.form-cart-fixed.attr-dropdown.product-type-variable form.cart .variations tr select + .reset_variations{
+		transform: translateX(100%) translateX(10px);/* rtl */
+	}
+	.woocommerce div.product.form-cart-fixed .summary .button.ts-buy-now-button {
+		margin: 0 5px 0 0;/* rtl */
+	}
+	.woocommerce div.product.form-cart-fixed:not(.product-type-grouped) .summary form.cart div.quantity .qty {
+		margin-left: 5px !important;/* rtl */
+		margin-right: 0 !important;
+	}
+	.woocommerce div.product.form-cart-fixed:not(.product-type-grouped) .summary form.cart div.quantity .plus {
+        left: 5px;/* rtl */
+		right: auto;
+    }
+	
+	/*** Shopping Cart ***/
+	.woocommerce table.shop_table_responsive.cart tr td.product-name, 
+	.woocommerce-page table.shop_table_responsive.cart tr td.product-name {
+		padding-left: 0;
+		padding-right: 15px;/* rtl */
+	}
+	.woocommerce table.shop_table_responsive.cart tr td.product-remove a, 
+	.woocommerce-page table.shop_table_responsive.cart tr td.product-remove a {
+		right: auto;
+		left: 10px;/* rtl */
+	}
+	.woocommerce table.shop_table_responsive tr td .amount, 
+	.woocommerce-page table.shop_table_responsive tr td .amount{
+		margin-right: auto;/* rtl */
+		margin-left: 0;
+    }
+	.woocommerce table.shop_table.cart td.actions .button.empty-cart-button {
+		margin-left: auto;/* rtl */
+		margin-right: 0;
+	}
+	
+	/*** Blog ***/
+	.commentlist ol.children {
+		padding-left: 0;
+		padding-right: 30px;/* rtl */
+	}
+	
+	/*** Blog Detail ***/
+	.single-post .single-navigation.prev > a {
+		padding-right: 30px; /* rtl */
+		padding-left: 0;
+	}
+	.single-post .single-navigation.next > a {
+		padding-left: 30px; /* rtl */
+		padding-right: 0;
+	}
+	
+	/*** Popup/Modal ***/
+	#ts-add-to-cart-popup-modal .close {
+		right: auto;
+		left: 13px;/* rtl */
+	}
+	
+	/*** Shortcode ***/
+	#ts-shopping-cart-sidebar li > div.cart-item-wrapper {
+		padding-left: 0px;/* rtl */
+		padding-right: 0;
+	}
+	
+	/*** Shop Page ***/
+	body.woocommerce.archive .ts-sidebar > aside {
+		left: auto;
+		right: 0;/* rtl */
+	}
+	.woocommerce .woocommerce-ordering .orderby ul {
+		right: auto;/* rtl */
+		left: 0;/* rtl */
+	}
+}
+
+@media only screen and (max-width: 570px){
+	.yith-wcwl-share .yith-wcwl-after-share-section, 
+	.yith-wcwl-share .yith-wcwl-after-share-section input.copy-target {
+		text-align: right;/* rtl */
+	}
+}
+
+@media only screen and (max-width: 480px){
+	/*** Product Detail ***/
+	.product-group-button > div.compare a.added:after,
+	.summary .single-product-buttons a.compare.added:before,
+	.product-group-button-meta > div.compare a.added:before,
+	.product-group-button > div.loop-add-to-cart a.added:after,
+	.product-group-button-meta > .loop-add-to-cart .button.added:before {
+		margin-left: 5px;/* rtl */
+		margin-right: 0;
+	}
+	.woocommerce div.product:not(.product-type-grouped) .quantity .number-button:before {
+		left: 5px;/* rtl */
+		right: auto;
+	}
+
+	/*** Cart/Checkout ***/
+	.woocommerce .checkout-login-coupon-wrapper .checkout_coupon .form-row-last {
+		margin-left: 0;
+		margin-right: 0;/* rtl */
+	}
+
+	/*** Blog ***/
+	.post-password-form > p > label + input[type="submit"] {
+		margin-left: 0;
+		margin-right: 0;/* rtl */
+	}
+	.woocommerce ul.order_details li {
+		border-right: 0;
+		border-left: 0;/* rtl */
+	}
+	.woocommerce table.shop_table.order_details th.product-total,
+	.woocommerce .woocommerce-order-details table.shop_table tfoot td,
+	.woocommerce table.shop_table.order_details td.product-total {
+		text-align: left;/* rtl */
+	}
+
+	/*** Popup/Modal ***/
+	.add-to-cart-popup-content .item .product-image {
+		margin-right: 0;
+		margin-left: 20px;/* rtl */
+	}
+}

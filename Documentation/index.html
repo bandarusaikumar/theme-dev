@@ -1,0 +1,1453 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=3" />
+	<title>Documentation | Emall - Elementor Multipurpose WooCommerce WordPress Theme</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/assets/favicon.png">
+</head>
+
+<body>
+	<header>
+		<div class="mask"></div>
+		<div class="header-intro">
+			<div class="header-intro-1">Welcome To Emall Theme</div>
+			<div class="header-intro-2">Elementor Multipurpose WooCommerce WordPress Theme</div>
+		</div>
+		<div class="scrolldown-wrapper">
+			<div class="scroll-button">
+				<svg height="30" width="10">
+					<circle class="scrolldown-p1" cx="5" cy="15" r="2" />
+					<circle class="scrolldown-p2" cx="5" cy="15" r="2" />
+				</svg>
+			</div>
+		</div>
+	</header>
+	
+	<main>
+		<!-- Menu -->
+		<span class="menu-icon-toggle open"><i class="fa fa-bars open"></i><i class="fa fa-times close"></i></span>
+		<nav>
+			<ul>
+				<li class="menu-logo">
+					<img src="images/assets/logo.png" alt="Emall" loading="lazy" />
+				</li>
+				<li class="has-child"><a href="#introduction"><span>Introduction</span></a>
+					<ul class="sub-menu">
+						<li><a href="#before-getting-started"><span>Before Getting Started</span></a></li>
+						<li><a href="#requirements-compatibility"><span>Requirements & Compatibility</span></a></li>
+					</ul>
+				</li>
+				<li class="has-child"><a href="#installation"><span>Installation</span></a>
+					<ul class="sub-menu">
+						<li><a href="#wordpress-installation"><span>WordPress Installation</span></a></li>
+						<li><a href="#ftp-installation"><span>FTP Installation</span></a></li>
+						<li><a href="#required-plugins"><span>Required Plugins</span></a></li>
+						<li><a href="#demo-content"><span>Demo Content</span></a></li>
+						<li><a href="#updating-the-theme"><span>Updating The Theme</span></a></li>
+					</ul>
+				</li>
+				<li><a href="#theme-options"><span>Theme Options</span></a></li>
+				<li class="has-child"><a href="#widgets-and-sidebars"><span>Widgets & Sidebars</span></a>
+					<ul class="sub-menu">
+						<li><a href="#add-a-new-sidebar"><span>Adding A New Sidebar</span></a></li>
+						<li><a href="#filter-widget-area"><span>Filter Widget Area</span></a></li>
+					</ul>
+				</li>
+				<li class="has-child"><a href="#header"><span>Header</span></a>
+					<ul class="sub-menu">
+						<li><a href="#adding-the-logo"><span>Adding The Logo</span></a></li>
+						<li><a href="#adding-the-favicon"><span>Adding The Favicon</span></a></li>
+						<li><a href="#setting-up-header"><span>Setting Up Header</span></a></li>
+						<li><a href="#header-customization"><span>Header Customization</span></a></li>
+					</ul>
+				</li>
+				<li><a href="#footer"><span>Footer</span></a></li>
+				<li><a href="#menu"><span>Menu</span></a></li>
+				<li class="has-child"><a href="#pages"><span>Pages</span></a>
+					<ul class="sub-menu">
+						<li><a href="#create-a-new-page"><span>Create A New Page</span></a></li>
+						<li><a href="#page-options"><span>Page Options</span></a></li>
+						<li><a href="#home-pages"><span>Home Pages</span></a></li>
+					</ul>
+				</li>
+				<li class="has-child"><a href="#blog"><span>Blog</span></a>
+					<ul class="sub-menu">
+						<li><a href="#create-a-new-post"><span>Create A New Post</span></a></li>
+						<li><a href="#post-options"><span>Post Options</span></a></li>
+						<li><a href="#blog-page"><span>Blog Page</span></a></li>
+					</ul>
+				</li>
+				<li class="has-child"><a href="#elementor"><span>Elementor</span></a>
+					<ul class="sub-menu">
+						<li><a href="#elementor-add-new-element"><span>How to add new element</span></a></li>
+						<li><a href="#elementor-container"><span>Enable Container</span></a></li>
+						<li><a href="#elementor-custom-breakpoints"><span>Edit Responsive Breakpoints</span></a></li>
+						<li><a href="#elementor-ts-elements"><span>TS Elements</span></a></li>
+					</ul>
+				</li>
+				<li class="has-child"><a href="#rev-slider"><span>Revolution Slider</span></a>
+					<ul class="sub-menu">
+						<li><a href="#create-a-new-rev-slider"><span>Create A New Revolution Slider</span></a></li>
+						<li><a href="#using-rev-slider"><span>Using Revolution Slider</span></a></li>
+					</ul>
+				</li>
+				<li class="has-child"><a href="#woocommerce"><span>WooCommerce</span></a>
+					<ul class="sub-menu">
+						<li><a href="#woocommerce-install"><span>Install WooCommerce</span></a></li>
+						<li><a href="#woocommerce-adding-page"><span>Adding WooCommerce Pages</span></a></li>
+						<li><a href="#woocommerce-settings"><span>Setting Up WooCommerce</span></a></li>
+						<li><a href="#woocommerce-adding-product"><span>Adding Product</span></a></li>
+					</ul>
+				</li>
+				<li class="has-child"><a href="#translations"><span>Translations</span></a>
+					<ul class="sub-menu">
+						<li><a href="#using-po-file"><span>Using Po File</span></a></li>
+						<li><a href="#using-wpml"><span>Using WPML</span></a></li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		
+		<!-- Introduction -->
+		<section id="introduction">
+			<header>
+				<h2>Introduction</h2>
+			</header>
+			<ul>
+				<li><strong>Theme Version:</strong> 1.0.0</li>
+				<li><strong>Created:</strong> 02 Jan 2025</li>
+				<li><strong>Latest update:</strong> 02 Jan 2025</li>
+			</ul>
+			<p>Thank you for purchasing our theme. In this document, we provide all kinds of good information with all the details you need to use our theme. We hope you have fun and enjoy working with our theme. If you need more help, please feel free to <a href="https://skygroup.ticksy.com/" target="_blank">open a ticket on our support center</a>.</p>
+		</section>
+		
+		<!-- Before Getting Started -->
+		<section id="before-getting-started">
+			<header>
+				<h2>Before Getting Started</h2>
+			</header>
+			<p>
+				If you are not familiar with WordPress, please get accustomed with it before proceeding to using our theme.
+				Here are some links that will help you to become more confident with WordPress:
+			</p>
+			<ul>
+				<li>First Steps with WordPress: <a target="_blank" href="https://wordpress.org/support/article/first-steps-with-wordpress-classic/">https://wordpress.org/support/article/first-steps-with-wordpress-classic/</a></li>
+				<li>WordPress Optimization: <a target="_blank" href="https://wordpress.org/support/article/optimization/">https://wordpress.org/support/article/optimization/</a></li>
+				<li>We recommend that you should use <a href="https://www.keycdn.com/?a=48775" target="_blank">CDN</a> if you sell products on many countries</li>
+			</ul>
+		</section>
+		
+		<!-- Requirement & Compatibility -->
+		<section id="requirements-compatibility">
+			<header>
+				<h2>Requirements & Compatibility</h2>
+			</header>
+			<h3 class="heading-index">Requirements</h3>
+			<p><strong>To run WordPress your host just needs a couple of things:</strong></p>
+			<ul>
+				<li><strong>PHP</strong> version 7.4 or greater</li>
+				<li><strong>MySQL</strong> version 8.0 or greater</li>
+			</ul>
+			
+			<h3 class="heading-index">Compatibility</h3>
+			<p><strong>Our theme is compatible with the following browsers:</strong></p>
+			<ul>
+				<li>Chrome</li>
+				<li>Firefox</li>
+				<li>Safari</li>
+				<li>Microsoft Edge</li>
+			</ul>
+		</section>
+		
+		<!-- Installation -->
+		<section id="installation">
+			<header>
+				<h2>Installation</h2>
+			</header>
+			<h3 class="heading-index">WordPress Core</h3>
+			<p>You download and install <a href="https://wordpress.org/" target="_blank">WordPress</a> version 6.0 or later</p>
+			
+			<h3 class="heading-index">Theme Package</h3>
+			<p>To download, you need to log into your ThemeForest account and go to your <a href="http://themeforest.net/downloads" target="_blank">http://themeforest.net/downloads</a> page. Locate the theme that you purchased in your Downloads list and click on the <strong>Download</strong> button</p>
+			<img data-src="images/media/installation_1.jpg" src="images/placeholder/installation_1.jpg" atl="Installation" loading="lazy" />
+			<ul>
+				<li><strong>All files & documentation</strong>: contains documentation, licenses, theme package and child theme package. So if you select this option, you need to extract the downloaded package and install the theme package inside.</li>
+				<li><strong>Installation WordPress file only</strong>: contains only the theme package</li>
+				<li><strong>License certificate & purchase code (PDF)</strong>: contains your license information in a PDF file</li>
+				<li><strong>License certificate & purchase code (text)</strong>: contains your license information in a text file</li>
+			</ul>
+		</section>
+		
+		<!-- WordPress Installation -->
+		<section id="wordpress-installation">
+			<header>
+				<h2>WordPress Installation</h2>
+			</header>
+			
+			<div class="one-half">
+				<p class="no-margin-top"><strong>Follow the steps below to install via WordPress:</strong></p>
+				<ol>
+					<li>In your WordPress Admin Panel, go to <strong>Appearance > Themes</strong></li>
+					<li>Click on the <strong>Add New</strong> and <strong>Upload Theme</strong> buttons</li>
+					<li>Click on the <strong>Choose File</strong> button and navigate to find the <strong>emall.zip</strong> file on your computer and click on the <strong>Install Now</strong> button</li>
+					<li>Wait while the theme is uploaded and installed</li>
+					<li>Activate the newly installed theme</li>
+					<li>Then you will get a notification about installing the required plugins. <a href="#required-plugins" class="internal-link">Follow the steps to install and activate the plugins</a></li>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/wordpress_installation.jpg" src="images/placeholder/wordpress_installation.jpg" alt="WordPress Installation" loading="lazy" />
+			</div>
+			
+			<div class="info">
+				<strong>Please note that:</strong> 
+				<ul>
+					<li>Some hostings have a restriction on a size of a file that you are uploading. If you have any warning, you will contact your hosting provider. They should increase your maximum upload size. Or you can refer <a href="https://skygroup.ticksy.com/article/15703" target="_blank">this article</a> and try doing it by yourself.</li>
+					<li>If you get the error message: <i>"The package could not be installed. The theme is missing the style.css stylesheet."</i>, it means that you didn't upload the theme package. You will need to extract your package and install the <strong>emall.zip</strong> file inside.</li>
+				</ul>
+			</div>
+		</section>
+		
+		<!-- FTP Installation -->
+		<section id="ftp-installation">
+			<header>
+				<h2>FTP Installation</h2>
+			</header>
+			<div class="one-half">
+				<p><strong>Follow the steps below to install via FTP:</strong></p>
+				<ol>
+					<li>Log into your hosting space via a FTP software</li>
+					<li>Unzip the <strong>emall.zip</strong> file and ONLY use the extracted <strong>emall</strong> folder</li>
+					<li>Upload the extracted <strong>emall</strong> folder into <strong>wp-content > themes</strong> folder</li>
+					<li>Go to <strong>Appearance > Themes</strong> and activate the Emall theme</li>
+					<li>Then you will get a notification about installing the required plugins. <a href="#required-plugins" class="internal-link">Follow the steps to install and activate the plugins</a></li>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/ftp_installation.jpg" src="images/placeholder/ftp_installation.jpg" alt="FTP Installation" loading="lazy" />
+			</div>
+		</section>
+		
+		<!-- Required Plugins -->
+		<section id="required-plugins">
+			<header>
+				<h2>Required Plugins</h2>
+			</header>
+			<p>After activating the theme, you will get a notification about installing the required plugins. You go to <strong>Appearance > Install Plugins</strong> to install them.</p>
+			<img data-src="images/media/required_plugins.jpg" src="images/placeholder/required_plugins.jpg" alt="Install Required Plugins" loading="lazy" />
+			
+			<div class="info">
+				<strong>Please note that:</strong>
+				<ul>
+					<li>You don't directly purchase the Revolution Slider plugin. So you can not update it by yourself. It is also not recommended.
+					When it has a new version, we will be careful to test and release the new theme version.</li>
+					<li>You should also not update other plugins without updating the theme. Please see our changelog to make sure that the current theme version is compatible with the new plugin version.</li>
+				</ul>
+			</div>
+		</section>
+		
+		<!-- Demo Content -->
+		<section id="demo-content">
+			<header>
+				<h2>Demo Content</h2>
+			</header>
+			<p>Our theme includes the demo data to the <strong>One Click Demo Import</strong> plugin. In admin panel, you go to <strong>Appearance > Emall Importer</strong> (You have to install and activate the <strong>ThemeSky</strong> and <strong>One Click Demo Import</strong> plugins to see this menu item). Then you click on the <strong>Import Demo Data</strong> button and the <strong>Continue & Import</strong> button (without selecting any recommended plugin from One Click Demo Import). It will take a few minutes to complete!</p>
+			<img data-src="images/media/import_demo_content.jpg" src="images/placeholder/import_demo_content.jpg" alt="Import Demo Content" loading="lazy" />
+			
+			<div class="info">
+				<strong>Please note that:</strong>
+				<ul>
+					<li>If you have any problem with import, please read this article <a href="https://ocdi.com/import-issues/" target="_blank">https://ocdi.com/import-issues/</a> and check your hosting configuration, or contact us here <a href="https://skygroup.ticksy.com/" target="_blank">https://skygroup.ticksy.com/</a></li>
+					<li>You should install/activate all recommended plugins before importing</li>
+					<li>After you install and activate WooCommerce, it will automatically create its pages (Shop, My Account, Cart, Chectout). So, if you don't want those pages to be duplicated, you should delete WooCommerce'pages before importing</li>
+					<li>Because of copyright, images are only used for demo purpose and not included in importer. The placeholder images will be imported.</li>
+				</ul>
+			</div>
+		</section>
+		
+		<!-- Updating The Theme -->
+		<section id="updating-the-theme">
+			<header>
+				<h2>Updating The Theme</h2>
+			</header>
+			
+			<h3 class="heading-index">Manual Update</h3>
+			<p><strong>Follow the steps below to manually update the theme:</strong></p>
+			<ol>
+				<li>First, you download the new theme package from themeforest. You have to log into your themeforest account and navigate to the <a href="http://themeforest.net/downloads" target="_blank">Downloads</a> tab. You find the Emall theme in your purchased themes list.</li>
+				<li>You delete the current theme. Don't worry about this. Your data won't be lost.</li>
+				<li>You upload the new theme package via <a href="#wordpress-installation" class="internal-link">WordPress</a> or <a href="#ftp-installation" class="internal-link">FTP software</a>.</li>
+			</ol>
+			<div class="info">
+				<strong>Please ensure that</strong> you only upload the installable WordPress file. If not, you will get an error message: <i>"The package could not be installed. The theme is missing the style.css stylesheet."</i>
+			</div>
+			
+			<h3 class="heading-index">Automatic Update</h3>
+			<p>You update the theme through the <strong>Envato Market</strong> plugin. Follow the steps below to set up this plugin:</p>
+			<ol>
+				<li>Download and install the <a href="https://envato.github.io/wp-envato-market/" target="_blank">Envato Market</a> plugin</li>
+				<li>You go to here <a href="https://build.envato.com/create-token/" target="_blank">https://build.envato.com/create-token/</a> and create a token. Get it.</li>
+				<li>In WordPress admin panel, you find the section called <strong>Envato Market</strong>. You enter your token code in there.</li>
+			</ol>
+			
+			<p>Please read this tutorial <a href="https://skygroup.ticksy.com/article/15704" target="_blank">https://skygroup.ticksy.com/article/15704</a> to get more information.</p>
+			
+			<div class="info">
+				<div><strong>Please note that:</strong></div>
+				<ul>
+					<li>
+						If you translated the theme to another language, you should backup your translation files in the <strong>themes > emall > languages</strong> folder before updating. You should also backup the translation files in plugins.
+					</li>
+					<li>
+						After updating the theme, you should update the recommended plugins if there is a notification about updating plugins. 
+						You go to <strong>Appearance > Install Plugins</strong> to update plugins. If you can not update the recommended plugins in wp admin, you should manually update them.
+						You can find the plugin packages in <strong>the theme folder > framework > plugins</strong> folder.
+					</li>
+					<li>
+						You can not update the <strong>Revolution Slider</strong> plugin in <strong>Appearance > Install Plugins</strong> because it is a bundled plugin. To update it, you need to deactivate and delete it first. Then, you go to <strong>Appearance > Install Plugins</strong> and install it again.
+					</li>
+				</ul>
+			</div>
+			
+		</section>
+		
+		<!-- Theme Options -->
+		<section id="theme-options">
+			<header>
+				<h2>Theme Options</h2>
+			</header>
+			<p>
+				After activating our theme, you can go to <strong>Appearance > Theme Options</strong> to configure the theme. 
+				Below will explain what you can do with Theme Options.
+			</p>
+			<div class="one-half">
+				<ul>
+					<li><strong>General:</strong> Add your logo and some global options</li>
+					<li><strong>Color Scheme:</strong> manage your site color</li>
+					<li><strong>Typography:</strong> you can change font and font size in there</li>
+					<li><strong>Header:</strong> set up the Header Layout, breadcrumb and other options for header</li>
+					<li><strong>Footer:</strong> select <a href="#footer" class="internal-link">Footer Blocks</a> which you want to show</li>
+					<li><strong>Menu:</strong> some options for menu</li>
+					<li><strong>Blog:</strong> configure the Blog Layout and some options to Show/Hide some things on the blog page</li>
+					<li><strong>WooCommerce:</strong> some global WooCommerce options, such as Product label, Quickshop, Ajax search</li>
+					<li><strong>Shop/Product Category:</strong> you configure your Shop/Product Category page in there</li>
+					<li><strong>Product Details:</strong> you configure your Product page in there</li>
+					<li><strong>Custom Code:</strong> allow you to add custom css/js code</li>
+					<li><strong>Import/Export:</strong> backup or restore your theme options</li>
+				</ul>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/theme_options.jpg" src="images/placeholder/theme_options.jpg" alt="Theme Options" data-rel="theme_options[]" loading="lazy" />
+			</div>
+		</section>
+		
+		<!-- Widgets & Sidebars -->
+		<section id="widgets-and-sidebars">
+			<header>
+				<h2>Widgets & Sidebars</h2>
+			</header>
+			<p>To manage widgets, you go to <strong>Appearance > Widgets</strong>. Just drag and drop widgets over to the sidebar.</p>
+			<p>Emall comes with 12 custom widgets and 6 sidebars. You can also easily add the custom sidebars.</p>
+		</section>
+		
+		<!-- Adding A New Sidebar -->
+		<section id="add-a-new-sidebar">
+			<header>
+				<h2>Adding A New Sidebar</h2>
+			</header>
+			<div class="one-half">
+				<strong>To add a new sidebar:</strong>
+				<ol>
+					<li>In the Widgets editor, you scroll down to the bottom</li>
+					<li>On the right hand side, you will see a form</li>
+					<li>You input your sidebar name and click on the Add Sidebar button</li>
+				</ol>
+				<strong>To remove your sidebar:</strong> just click on the trash icon on your sidebar.
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/adding_a_new_sidebar.jpg" src="images/placeholder/adding_a_new_sidebar.jpg" alt="Widget Area" loading="lazy" />
+			</div>
+		</section>
+		
+		<!-- Filter Widget Area -->
+		<section id="filter-widget-area">
+			<header>
+				<h2>Filter Widget Area</h2>
+			</header>
+			
+			<div class="one-half">
+				<p>This widget area allows you to add the filter widgets into the Shop/Category page as the screenshot.</p>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/product_category_filter.jpg" src="images/placeholder/product_category_filter.jpg" alt="Product Category Filter" loading="lazy" />
+			</div>
+			
+			<div class="one-half">
+				<p>You go to <strong>Appearance > Widgets</strong>. You drag and drop the filter widgets into <strong>Filter Widget Area</strong>.</p>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/filter_widget_area.jpg" src="images/placeholder/filter_widget_area.jpg" alt="Product Category Filter" loading="lazy" />
+			</div>
+			
+			<div class="info">
+				<p>If you want to hide this section, you can disable the <strong>Filter Widget Area</strong> option in <strong>Theme Options > Shop/Product Category</strong> tab.</p>
+			</div>
+		</section>
+		
+		<!-- Header -->
+		<section id="header">
+			<header>
+				<h2>Header</h2>
+			</header>
+			<p>The header is probably one of the first thing that you will want to setup. It includes the logo, favicon, menu and other things. The following sections will explain how to set up and customize header.</p>
+		</section>
+		
+		<!-- Header -->
+		<section id="adding-the-logo">
+			<header>
+				<h2>Adding The Logo</h2>
+			</header>
+			
+			<div class="one-half">
+				<p><strong>Follow the steps below to set up the logo:</strong></p>
+				<ol>
+					<li>Navigate to <strong>Appearance > Theme Options</strong>. You select the <strong>General</strong> tab</li>
+					<li>Find the logo options</li>
+					<li>Click on the <strong>Upload</strong> button and choose a file from your library</li>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/add_logo.jpg" src="images/placeholder/add_logo.jpg" alt="Logo & Favicon" loading="lazy" />
+			</div>
+			
+			<div class="info">
+				<strong>Please note that</strong> there is also the logo option in each page (see <a href="#page-options" class="internal-link">Page Options</a>). It will override the logo option in Theme Options.
+			</div>
+		</section>
+		
+		<section id="adding-the-favicon">
+			<header>
+				<h2>Adding The Favicon</h2>
+			</header>
+			
+			<div class="one-half">
+				<p><strong>Follow the steps below to set up the favicon:</strong></p>
+				<ol>
+					<li>Navigate to <strong>Appearance > Customize > Site Identity</strong>.</li>
+					<li>Find the <strong>Site Icon</strong> option</li>
+					<li>Click on the <strong>Select Site Icon</strong> button and choose a file from your library</li>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/add_favicon.jpg" src="images/placeholder/add_favicon.jpg" alt="Logo & Favicon" loading="lazy" />
+			</div>
+		</section>
+		
+		<!-- Setting Up Header -->
+		<section id="setting-up-header">
+			<header>
+				<h2>Setting Up Header</h2>
+			</header>
+			<p>To set up your header, you go to <strong>Appearance > Theme Options > Header</strong> tab. In there, you can choose Header Layout, configure your breadcrumb and other options.</p>
+			
+			<div class="one-half">
+				<h3>Header Layout</h3>
+				<p>Emall comes with 9 header layouts. Just choose one of our header layouts for your site.</p>
+				<p>You can also choose the header layout for individual pages (see <a href="#page-options" class="internal-link">Page Options</a>).</p>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/header_layout.jpg" src="images/placeholder/header_layout.jpg" alt="Header Layout" loading="lazy" />
+			</div>
+			
+			<div class="one-half">
+				<h3>Breadcrumb</h3>
+				<p>Emall comes with 3 different breadcrumb layouts. Just choose one of our breadcrumb layouts for your site.</p>
+				<p>You can also choose the breadcrumb layout for individual pages (see <a href="#page-options" class="internal-link">Page Options</a>).</p>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/breadcrumb_options.jpg" src="images/placeholder/breadcrumb_options.jpg" alt="Header Breadcrumb" loading="lazy" />
+			</div>
+			
+			<div class="one-half">
+				<h3>Other Options</h3>
+				<ul>
+					<li><strong>Sticky Header:</strong> Show header when scrolling down</li>
+					<li><strong>Store Notice:</strong> add notice or information at top of all the page. You also can use our <strong>ts_countdown</strong> shortcode to add your countdown to the notice. <br>
+					<u>Ex</u>: <em>[ts_countdown before_text="END IN" date="2028-08-14 12:00:00"]</em></li>
+					<li><strong>Information:</strong> Add information to the header. Ex: shipping, discount, ...</li>
+					<li><strong>Need Help:</strong> Add a link to the help page. Ex: contact page</li>
+					<li><strong>Hotline:</strong> Add phone number to the header</li>
+					<li><strong>Location:</strong> Add location of the store</li>
+					<li><strong>Track Order:</strong> Add track order link</li>
+					<li><strong>Hot Deals:</strong> Add a link to the discount page</li>
+					<li><strong>Social Icons:</strong> Add social icons to the header</li>
+					<li><strong>Header Currency:</strong> Show multi-currency switcher</li>
+					<li><strong>Header Language:</strong> Show multi-language switcher</li>
+					<li><strong>Search:</strong> Show the search bar</li>
+					<li><strong>Wishlist:</strong> Show the wishlist icon/link</li>
+					<li><strong>My Account:</strong> Show the login form/my account link</li>
+					<li><strong>Shopping Cart:</strong> Show cart on the header</li>
+					<li><strong>Shopping Cart Sidebar:</strong> Show cart in a sidebar when clicking on cart</li>
+					<li><strong>Add To Cart Effect:</strong> Show a popup or image flies to cart after adding a product to cart</li>
+					<li><strong>Mobile Menu Email:</strong> Add an email address to mobile menu</li>
+				</ul>
+				<div class="info">
+					For more information about <strong>Header Language</strong> and <strong>Header Currency</strong>, please read this article <a href="https://skygroup.ticksy.com/article/11782/" target="_blank">https://skygroup.ticksy.com/article/11782/</a>
+				</div>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/header_other_options.jpg" src="images/placeholder/header_other_options.jpg" alt="Header Other Options" loading="lazy" />
+			</div>
+		</section>
+		
+		<!-- Header Customization -->
+		<section id="header-customization">
+			<header>
+				<h2>Header Customization</h2>
+			</header>
+			<p>If you want to customize the theme, you should create <a href="https://developer.wordpress.org/themes/advanced-topics/child-themes/" target="_blank">the child theme</a> before making any changes.
+			<p>You can find the sample child theme package (the <strong>emall-child.zip</strong> file) in your downloaded file (you have to download <strong>All files & documentation</strong>).</p>
+			<p><strong>Follow the steps below to override header template:</strong></p>
+			<ol>
+				<li>Create the <strong>templates > headers</strong> folders in the child theme folder</li>
+				<li>Copy the template file from the parent theme folder to the child theme folder</li>
+				<li>Edit the template file in the child theme folder</li>
+			</ol>
+			<img data-src="images/media/header_customization.jpg" src="images/placeholder/header_customization.jpg" alt="Header Customization" loading="lazy" class="noborder" />
+		</section>
+		
+		<!-- Footer -->
+		<section id="footer">
+			<header>
+				<h2>Footer</h2>
+			</header>
+			<p>
+				Emall allows you to create <strong>unlimited footer layouts</strong>. The following sections will explain how to set up a new footer.
+			</p>
+			
+			<h3>Adding Footer Content</h3>
+			<div class="one-half">
+				<p><strong>Follow the steps below to add a new footer content:</strong></p>
+				<ol>
+					<li>In admin panel, you go to <strong>Footer Blocks</strong></li>
+					<li>Add a new footer block and add content as you normally do with page</li>
+					<li>Then, you go to <strong>Appearance > Theme Options > Footer</strong>. You select your footer block in there</li>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/adding_footer_content.jpg" src="images/placeholder/adding_footer_content.jpg" alt="Adding Footer Content" loading="lazy" />
+			</div>
+			<div class="info">
+				<strong>Please note that:</strong>
+				<ul>
+					<li>You have to activate our ThemeSky plugin to see the Footer Blocks menu.</li>
+					<li>If the Elementor editor does not show up, you will go to <strong>Elementor > Settings</strong>. You check <strong>Footer Blocks</strong> in the <strong>Post Types</strong> option.</li>
+					<li>There is another option called <strong>"Footer Block"</strong> in <a href="#page-options" class="internal-link">Page Options</a> of each page. It'll overwrite the global option. So, If you change the footer in <strong>Appearance > Theme Options > Footer</strong> but nothing changes. You can edit page and find the "Footer Block" option, change it to your footer or change to default to use global option.</li>
+				</ul>
+			</div>
+		</section>
+		
+		<!-- Menu -->
+		<section id="menu">
+			<header>
+				<h2>Menu</h2>
+			</header>
+			<p>
+				Emall comes with a built-in mega menu that is perfect for displaying the large menu. 
+				You can add any widget to your menu. It also allows you to add Icon, Column and Background Image.
+				This section will explain how to set up a new mega menu.
+			</p>
+			
+			<div class="one-half">
+				<p><strong>Follow the steps below to add a new mega menu content:</strong></p>
+				<ol>
+					<li>In admin panel, you go to <strong>Mega Menus</strong></li>
+					<li>Add a new mega menu and add content as you normally do with page</li>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/adding_mega_menu.jpg" src="images/placeholder/adding_mega_menu.jpg" alt="Adding Mega Menu" loading="lazy" />
+			</div>
+			<div class="info">
+				<strong>Please note that:</strong>
+				<ul>
+					<li>You have to activate our ThemeSky plugin to see the Mega Menus menu.</li>
+					<li>If the Elementor editor does not show up, you will go to <strong>Elementor > Settings</strong>. You check <strong>Mega Menus</strong> in the <strong>Post Types</strong> option.</li>
+				</ul>
+			</div>
+			
+			<div class="one-half">
+				<p class="no-margin-top"><strong>Follow the steps below to set up a Mega Menu:</strong></p>
+				<ol>
+					<li>Go to <strong>Appearance > Menus</strong> to create or edit a menu that you already have</li>
+					<li>Only the first level of menu items can enable Mega Menu. Just check <strong>Enable Mega Menu</strong> option</li>
+					<li>After enabling Mega Menu, it will show you the options of Mega Menu below
+						<ul>
+							<li><strong>Select Mega Menu:</strong> select a mega menu which you added in <strong>Mega Menus</strong></li>
+							<li><strong>Columns:</strong> You can choose 1, 2, 3, 4 columns, Fullwidth, Stretch row or Stretch row & content</li>
+							<li><strong>Set Thumbnail:</strong> Add an image next to menu item. This option does not work on Mobile Menu. If you want to add an icon, you can add a <a href="https://fontawesome.com/icons" target="_blank">FontAwesome</a> class into the <strong>CSS Classes</strong> field</li>
+							<li><strong>Set Background:</strong> This option allows you to set a background image for Mega Menu</li>
+							<li><strong>Background Repeat and Background Position:</strong> Allow you to configure the background image</li>
+						</ul>
+					</li>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/mega_menu.jpg" src="images/placeholder/mega_menu.jpg" alt="Mega Menu" loading="lazy" class="noborder" />
+			</div>
+			
+			<div class="info">
+				<ul>
+					<li>After setting up your menu, you will scroll down to bottom and assign it to the <strong>Primary Navigation</strong> location. There is another option called <strong>Primary Menu</strong> in <a href="#page-options" class="internal-link">Page Options</a> of each page. It'll overwrite the global option. So, If you assigned Primary Navigation already but nothing changes. You can edit page and find the <strong>Primary Menu</strong> option, change it to your menu or change to default to use global option.</li></li>
+					<li><strong>Secondary Navigation</strong> allows you to display another simple menu on the header (only support some header layouts). That menu does not support Mega Menu</li>
+					<li>If you want to replace Primary Navigation to another menu on Mobile, you will create a new menu and assign to the <strong>Mobile Navigation</strong> location.</li>
+					<li>You assign menu to the <strong>Vertical Navigation</strong> location if you want to show that menu as a vertical menu (only support some header layouts).</li>
+					<li>When you enable mega menu, it will display content of mega menu. So it won't display sub menu items which you directly add to menu</li>
+					<li>If you don't see the <strong>Product Categories</strong> tab or the <strong>CSS Classes</strong> field, you will click the <strong>Screen Options</strong> button on the top right corner. You find elements that you want to show and enable them.</li>
+				</ul>
+			</div>
+		</section>
+		
+		<!-- Pages -->
+		<section id="pages">
+			<header>
+				<h2>Pages</h2>
+			</header>
+			<p>
+				Emall is built based on the <strong>Elementor</strong> plugin and powerful <a href="#page-options" class="internal-link">Page Options</a> which help you build any kinds of pages.
+				The following sections will explain how to create a new page.
+			</p>
+		</section>
+		
+		<!-- Create A New Page -->
+		<section id="create-a-new-page">
+			<header>
+				<h2>Create A New Page</h2>
+			</header>
+			<div class="one-half">
+				<p class="no-margin-top"><strong>Follow the steps below to create a new page:</strong></p>
+				<ol>
+					<li>In admin panel, go to <strong>Pages</strong> and click on the <strong>Add New</strong> button</li>
+					<li>Input the page title and page content</li>
+					<li>On the Page Attributes section, choose the page template from dropdown list</li>
+					<li>Scroll down and find the <a href="#page-options" class="internal-link">Page Options</a> section, make some configurations for your page</li>
+				</ol>
+			</div>
+			<div class="one-half last"> 
+				<img data-src="images/media/create_a_new_page.jpg" src="images/placeholder/create_a_new_page.jpg" alt="Create A New Page" loading="lazy" />
+			</div>
+		</section>
+		
+		<!-- Page Options -->
+		<section id="page-options">
+			<header>
+				<h2>Page Options</h2>
+			</header>
+			<p>In the page editor <strong>(You Edit Page, not Edit with Elementor)</strong>, you will see the <strong>Page Options</strong> section at the bottom of editor. It will help you create many kinds of pages.</p>
+			<p>After changing Page Options, you can switch to Elementor and continue editing page content.</p>
+			<img data-src="images/media/page_options.jpg" src="images/placeholder/page_options.jpg" alt="Page Options" loading="lazy" />
+			
+			<p>Some options will override the options in Theme Options. Select <strong>Default</strong> if you want to use your global settings.</p>
+			
+			<ul>
+				<li><strong>Layout Fullwidth:</strong> enable Fullwidth for your page layout. You can set Fullwidth for the whole page or part of page (Header, Main Content, Footer)</li>
+				<li><strong>Layout Style:</strong> select Boxed or Wide layout</li>
+				<li><strong>Page Layout:</strong> select Fullwidth, Left Sidebar, Right Sidebar or Left & Right Sidebar</li>
+				<li><strong>Left Sidebar:</strong> select a sidebar to display on the left sidebar</li>
+				<li><strong>Right Sidebar:</strong> select a sidebar to display on the right sidebar</li>
+				<li><strong>Header Layout:</strong> select one of Header Layouts</li>
+				<li><strong>Transparent Header:</strong> set header background to transparent. Only available on some header layouts</li>
+				<li><strong>Header Text Color:</strong> set text color when enabling Transparent Header</li>
+				<li><strong>Primary Menu:</strong> select a different primary menu for this page</li>
+				<li><strong>Secondary Menu:</strong> select a different second menu for this page</li>
+				<li><strong>Display Vertical Menu By Default:</strong> show vertical menu without hovering</li>
+				<li><strong>Show Page Title:</strong> show or hide the page title. The page title is hidden on home page by default</li>
+				<li><strong>Show Breadcrumb:</strong> show or hide the breadcrumb. It is also hidden on home page by default</li>
+				<li><strong>Breadcrumb Layout:</strong> select a layout for your breadcrumb</li>
+				<li><strong>Breadcrumb Background Parallax:</strong> allow you to apply parallax in the breadcrumb background</li>
+				<li><strong>Breadcrumb Background Image:</strong> change the breadcrumb background image for this page</li>
+				<li><strong>Logo:</strong> allow you to display a different logo on this page</li>
+				<li><strong>Mobile Logo:</strong> show this logo on mobile. Use Logo if it is not set</li>
+				<li><strong>Sticky Logo:</strong> show this logo on the sticky header. Use Logo if it is not set</li>
+				<li><strong>Page Slider:</strong> allow you to add a slider on your page</li>
+				<li><strong>Page Slider Position:</strong> set Position for your slider (Before Header or Before Main Content)</li>
+				<li><strong>Select Revolution Slider:</strong> if you set Page Slider to Revolution Slider, you will select a slider to display</li>
+				<li><strong>Footer Block:</strong> select a footer block to replace the footer block which is selected in Theme Options</li>
+			</ul>
+		</section>
+		
+		<!-- Home Pages -->
+		<section id="home-pages">
+			<header>
+				<h2>Home Pages</h2>
+			</header>
+			
+			<h3 class="heading-index">Setting up a home page</h3>
+			<div class="one-half">
+				<ol>
+					<li>In admin panel, you go to <strong>Settings > Reading</strong>.</li>
+					<li>You choose the <strong>A static page(select below)</strong> option.</li>
+					<li>Select a page from dropdown list of the <strong>Homepage</strong> option.</li>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/reading_settings.jpg" src="images/placeholder/reading_settings.jpg" alt="Reading Settings" loading="lazy" />
+			</div>
+		</section>
+		
+		<!-- Blog -->
+		<section id="blog">
+			<header>
+				<h2>Blog</h2>
+			</header>
+			<p>
+				Emall supports 5 post formats: Standard, Audio, Gallery, Quote and Video. They will help you easily make a microblogging website.
+			</p>
+		</section>
+		
+		<!-- Create A New Post -->
+		<section id="create-a-new-post">
+			<header>
+				<h2>Create A New Post</h2>
+			</header>
+			<div class="one-half">
+				<p class="no-margin-top"><strong>Follow the steps below to create a new post:</strong></p>
+				<ol>
+					<li>Go to <strong>Posts</strong></li>
+					<li>Click on the <strong>Add New</strong> button</li>
+					<li>Input the post title and post content</li>
+					<li>Choose the post format and category on the right hand side</li>
+					<li>Scroll down and find the <a href="#post-options" class="internal-link">Post Options</a> section, make some configurations for your post</li>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/create_a_new_post.jpg" src="images/placeholder/create_a_new_post.jpg" alt="Create A New Post" loading="lazy" />
+			</div>
+		</section>
+		
+		<!-- Post Options -->
+		<section id="post-options">
+			<header>
+				<h2>Post Options</h2>
+			</header>
+			<p>
+				In the post editor, you will see the Post Options section at the bottom of editor. It will help you create different layouts for different posts.
+				Also, if you set the post format to Video or Audio, you will input your Video or Audio URL here.
+			</p>
+			<img data-src="images/media/post_options.jpg" src="images/placeholder/post_options.jpg" alt="Post Options" loading="lazy" />
+		</section>
+		
+		<!-- Blog Page -->
+		<section id="blog-page">
+			<header>
+				<h2>Blog Page</h2>
+			</header>
+			<div class="two-third">
+				<p><strong>Follow the steps below to set up a Blog page:</strong></p>
+				<ol>
+					<li>You create a new page</li>
+					<li>Input the page title. You don't need to input the content</li>
+					<li>On the page attributes section, set <strong>Tempate</strong> to <strong>Blog Template</strong></li>
+					<li>Save your page</li>
+				</ol>
+			</div>
+			<div class="one-third last">
+				<img data-src="images/media/blog_template.jpg" src="images/placeholder/blog_template.jpg" alt="Blog Template" loading="lazy" />
+			</div>
+			
+			<div class="info">
+				<strong>Please note that:</strong>
+				<ul>
+					<li>If you use <strong>Blog Template</strong>, you will configure your blog layout in the <a href="#page-options" class="internal-link">Page Options</a> section.</li>
+					<li>If your homepage displays the latest posts (setup in <strong>Settings > Reading</strong>), you will configure your blog layout in <strong>Theme Options > Blog</strong> tab.</li>
+					<li>You use the <a href="#elementor-ts-elements" class="internal-link">TS Blogs</a> elementor element to display your blogs in the masonry layout.</li>
+				</ul>
+			</div>
+		</section>
+		
+		<!-- Elementor -->
+		<section id="elementor">
+			<header>
+				<h2>Elementor</h2>
+			</header>
+			<p>
+				Elementor will help you manage your content at the WordPress sites and build any layout you can imagine in a few minutes without coding.
+				You can watch <a href="https://www.youtube.com/watch?v=_X0eYtY8T_U" target="_blank">tutorial video</a> to get started.
+			</p>
+		</section>
+		
+		<!-- Elementor - Add new element -->
+		<section id="elementor-add-new-element">
+			<header>
+				<h2>How to add new element</h2>
+			</header>
+			
+			<p>To use Elementor, you click the <strong>Edit with Elementor</strong> button</p>
+			
+			<img data-src="images/media/edit_with_elementor.jpg" src="images/placeholder/edit_with_elementor.jpg" alt="Edit with Elementor" loading="lazy" />
+			
+			<p>It will change to the Elementor editor as below</p>
+			
+			<img data-src="images/media/elementor_editor.jpg" src="images/placeholder/elementor_editor.jpg" alt="Elementor Editor" loading="lazy" />
+			
+			<p>Then, you choose an element, drag and drop it from the left panel to the right panel</p>
+			<img data-src="images/media/elementor_add_element.jpg" src="images/placeholder/elementor_add_element.jpg" alt="Elementor Add Element" loading="lazy" />
+		</section>
+		
+		<!-- Elementor - Enable Container -->
+		<section id="elementor-container">
+			<header>
+				<h2>Enable Container</h2>
+			</header>
+			
+			<div class="one-half">
+				<p>Enable/Disable Container feature: In admin panel, you go to <strong>Elementor > Settings</strong>, choose the <strong>Features</strong> tab.</p>
+				<p>Now, you can see the <strong>Container</strong> option, you enable/disable it by changing the dropdown value</p>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/elementor_flexbox.jpg" src="images/placeholder/elementor_flexbox.jpg" alt="Elementor Flex Container" loading="lazy" />
+			</div>
+			<div class="info">
+				<strong>If you have any Elementor page set up already. Please read our note carefully:</strong>
+				<p>Container will be changed your HTML source code. So please make sure you've a <a href="#backup">backup of your page.</a></p>
+				<p>There are 2 ways to convert your Elementor page:</p>
+				<ol>
+					<li>Convert the whole page: Edit your page, using Edit with Elementor. You click in the gear icon at the bottom left corner of left sidebar. You will see the convert button here.</li>
+					<li>Convert section by section: Edit your page, using Edit with Elementor. Edit section, in the left sidebar you will see the convert button for each section.</li>
+				</ol>
+				<img data-src="images/media/flexbox_convert.jpg" src="images/placeholder/flexbox_convert.jpg" alt="Convert to flexbox" loading="lazy" />
+				<p id="backup">&nbsp;</p>
+				<p>If you don't know how to backup your page. You can following our instruction: <i>You edit your page with Elementor. You click in the arrow icon beside the Update button at the bottom of left sidebar. Now you can save your page as template. So you can recover your page any time.</i></p>
+			</div>
+		</section>
+		
+		<!-- Elementor - Responsive Breakpoints< -->
+		<section id="elementor-custom-breakpoints">
+			<header>
+				<h2>Edit Responsive Breakpoints</h2>
+			</header>
+			<div class="two-third">
+				<p>To make your page beautiful in any device. You can add/edit/remove breakpoints.</p>
+				<p>Edit any page with Elementor. In the top of left sidebar, you click<strong> Menu Icon > Site Settings > Layout.</strong></p> 
+				<p>In the <strong>Breakpoints</strong> section, you can make some changes.</p>
+			</div>
+			<div class="one-third last">
+				<img data-src="images/media/breakpoints.jpg" src="images/placeholder/breakpoints.jpg" alt="Elementor Flex Container" loading="lazy" />
+			</div>
+		</section>
+		
+		<!-- Elementor - TS Elements -->
+		<section id="elementor-ts-elements">
+			<header>
+				<h2>TS Elements</h2>
+			</header>
+			
+			<p>All our elements are in the <strong>TS Elements</strong> section (with the <strong>TS</strong> prefix). Below explains about them.</p>
+			
+			<ul>
+				<li><strong>TS Team Members:</strong> display your team member. Go to <strong>Team Members</strong> to add new member.</li>
+				<li><strong>TS Testimonial:</strong> display testimonials in the grid or slider layout. Go to <strong>Testimonials</strong> to add new testimonial</li>
+				<li><strong>TS Logos:</strong> display your partner logos in the grid or slider layout. Go to <strong>Logos</strong> to add new logo</li>
+				<li><strong>TS Blogs:</strong> display your blogs in a grid, slider or masonry layout</li>
+				<li><strong>TS Banner:</strong> display your banner. Allow you to add content on your banner</li>
+				<li><strong>TS Countdown:</strong> display a countdown timer</li>
+				<li><strong>TS Coupon:</strong> display a coupon code</li>
+				<li><strong>TS Social Icons:</strong> display social icons</li>
+				<li><strong>TS Instagram:</strong> display Instagram images. You need to create Instagram API Key with your account</li>
+				<li><strong>TS Image Box:</strong> it is similar with banner</li>
+				<li><strong>TS Image Compare:</strong> compare 2 images (before/after)</li>
+				<li><strong>TS Products:</strong> display your products in a grid or slider layout</li>
+				<li><strong>TS Product Deals:</strong> display products on sale with a countdown timer. You need to set <span class="image-tooltip">Sale price dates<span><img data-src="images/media/sale_price_dates.jpg" src="images/placeholder/sale_price_dates.jpg" alt="Sale price dates" loading="lazy" /></span></span> for your discounted products</li>
+				<li><strong>TS Product Categories:</strong> display product categories in a grid or slider layout</li>
+				<li><strong>TS Product Brands:</strong> display product brands</li>
+				<li><strong>TS Products In Category Tabs:</strong> display products in tabs. Each tab contains products of a category</li>
+				<li><strong>TS Products In Product Type Tabs:</strong> display products in tabs. Each tab contains products of a type (Recent, Best Selling, Top Rated, Featured)</li>
+				<li><strong>TS List Of Product Categories:</strong> display product categories in a list</li>
+				<li><strong>TS Grouped Product:</strong> display products in a grouped product</li>
+				<li><strong>TS Filtered Products:</strong> display products with a pre-defined filter bar</li>
+				<li>
+					<strong>TS Mailchimp:</strong> display a Mailchimp Subscription form. You need to install the <a href="https://wordpress.org/plugins/mailchimp-for-wp/" target="_blank">MailChimp For WordPress</a> plugin and add a form before using this element. You get the form html at the bottom of this section.
+					To know how to create an API Key, you can read <a href="https://mailchimp.com/help/about-api-keys/" target="_blank">this article</a>. To know how to create an Audience, you can read <a href="https://mailchimp.com/help/create-audience/" target="_blank">this article</a>.
+				</li>
+			</ul>
+			
+			<p><strong>Below is html of Mailchimp form which is used for our demo</strong></p>
+			<textarea class="code" readonly="readonly">
+<div class="subscribe-email">
+	<input type="email" name="EMAIL" placeholder="Your email address" required />	
+	<button class="button" type="submit">Sign up<i class="icon-arrow-2-right"></i></button>
+</div>
+			</textarea>
+			
+			<div class="info">
+				For product, you should use our product elements instead of WooCommerce elements. Because there are many options to display your products.
+			</div>
+		</section>
+		
+		<!-- Revolution Slider -->
+		<section id="rev-slider">
+			<header>
+				<h2>Revolution Slider</h2>
+			</header>
+			<p>
+			Emall includes the popular <a href="https://1.envato.market/baznXm" target="_blank">Revolution Slider Created By ThemePunch</a>.
+			This slider is 100% responsive and has many amazing options. In the following sections, you will know how to add a new slider and how to show it on frontend.
+			This is <a href="https://www.sliderrevolution.com/help-center/" target="_blank">its own documentation</a>. You can read to get more information.
+			</p>
+			
+			<div class="info">
+				<p>
+					<strong>Please note that</strong> you don't directly purchase the Revolution Slider plugin. 
+					So you can not update it by yourself. It is also not recommended. When it has a new version, we will be careful to test and release the new theme version. 
+					If you see the notification below, you can dismiss it.
+				</p>
+				<img data-src="images/media/rev_slider_notification.jpg" src="images/placeholder/rev_slider_notification.jpg" alt="Revolution Slider Notification" loading="lazy" />
+			</div>
+		</section>
+		
+		<!-- Create A New Revolution Slider -->
+		<section id="create-a-new-rev-slider">
+			<header>
+				<h2>Create A New Revolution Slider</h2>
+			</header>
+			<div class="one-third">
+				<p><strong>Follow the steps below to create a new Revolution Slider:</strong></p>
+				<ol>
+					<li>You go to the <strong>Slider Revolution</strong> page</li>
+					<li>Click on the <strong>New Blank Module</strong> box</li>
+					<li>Input the slider title and alias</li>
+					<li>Make some configurations</li>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/create_a_new_rev_slider.jpg" src="images/placeholder/create_a_new_rev_slider.jpg" alt="Create A New Revolution Slider" loading="lazy" />
+			</div>
+			
+			<p>&nbsp;</p>
+			
+			<div class="one-half">
+				<p><strong>Follow the steps below to add a new slide to your sliders:</strong></p>
+				<ol>
+					<li>Hover on <strong>Slides > Add Slide(s)</strong> on the top bar</li>
+					<li>Choose one of the listed options below</li>
+					<ul>
+						<li><strong>Blank Slide</strong>: add a new Slide without any predefined content</li>
+						<li><strong>Bulk Slide</strong>: add more than one Slide at a time with predefined background images</li>
+						<li><strong>Import from Modules</strong>: add a Slide from Modules</li>
+						<li><strong>Import from Template</strong>: add a Slide from the Template Library</li>
+					</ul>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/add_slides_to_rev_slider.jpg" src="images/placeholder/add_slides_to_rev_slider.jpg" alt="Add Slides To Revolution Slider" loading="lazy" />
+			</div>
+		</section>
+		
+		<!-- Using Revolution Slider -->
+		<section id="using-rev-slider">
+			<header>
+				<h2>Using Revolution Slider</h2>
+			</header>
+			
+			<p>There are three ways to use Revolution Slider</p>
+			
+			<h3>Assign a slider from the Page Options section</h3>
+			<div class="one-half">
+				<ol>
+					<li>Create or edit a page</li>
+					<li>Find the <strong>Page Options</strong> section below</li>
+					<li>Set the <strong>Page Slider</strong> option to Revolution Slider</li>
+					<li>Finally, you choose a slider from the Select Revolution Slider option</li>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/assign_rev_slider_page_options.jpg" src="images/placeholder/assign_rev_slider_page_options.jpg" alt="Assign A Revolution Slider From Page Options" loading="lazy" />
+			</div>
+			
+			<p> &nbsp; </p>
+			
+			<h3>Add slider from Elementor editor</h3>
+			<div class="two-third">
+				<ol>
+					<li>You switch to the Elementor editor</li>
+					<li>You find the <strong>Revolution Slider</strong> element and add it to page content</li>
+					<li>Finally, you choose a slider</li>
+				</ol>
+			</div>
+			<div class="one-third last">
+				<img data-src="images/media/add_rev_slider_elementor.jpg" src="images/placeholder/add_rev_slider_elementor.jpg" alt="Add A Revolution Slider From Elementor" loading="lazy" />
+			</div>
+			
+			<h3>Use the slider shortcode</h3>
+			<div class="two-third">
+				<ol>
+					<li>You go to the Slider Revolution page</li>
+					<li>Click to edit a slider and find the shortcode in the <strong>Module Naming</strong> box</li>
+					<li>Copy the shortcode and paste into the Elementor Shortcode element</li>
+				</ol>
+			</div>
+			<div class="one-third last">
+				<img data-src="images/media/use_rev_shortcode.jpg" src="images/placeholder/use_rev_shortcode.jpg" alt="Use Revolution Slider Shortcode" loading="lazy" class="noborder" />
+			</div>
+			
+		</section>
+		
+		<!-- WooCommerce -->
+		<section id="woocommerce">
+			<header>
+				<h2>WooCommerce</h2>
+			</header>
+			<p>Emall theme is fully compatible with the latest version of the WooCommerce plugin. We customized and added many features, shortcodes and widgets for this plugin.
+				In the following sections, you will know how to install and set up the WooCommerce plugin.
+				You can also refer <a href="https://woocommerce.com/documentation/plugins/woocommerce/getting-started/" target="_blank">WooCommerce Documentation</a> to get more information.
+			</p>
+		</section>
+		
+		<!-- Install WooCommerce -->
+		<section id="woocommerce-install">
+			<header>
+				<h2>Install WooCommerce</h2>
+			</header>
+			
+			<div class="one-half">
+				<p><strong>There are 2 ways to install WooCommerce</strong></p>
+				<ol>
+					<li>After activating our theme, you go to <strong>Appearance > Install Plugins</strong>. You install WooCommerce from the required plugins list.</li>
+					<li>Install WooCommerce from the <strong>Plugins</strong> page</li>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/install_woocommerce_1.jpg" src="images/placeholder/install_woocommerce_1.jpg" alt="Install WooCommerce" loading="lazy" />
+			</div>
+			
+			<img data-src="images/media/install_woocommerce_2.jpg" src="images/placeholder/install_woocommerce_2.jpg" alt="Install WooCommerce" loading="lazy" />
+			
+			<div class="info">
+				You should install WooCommerce from the required plugins list. Because we tested that version and it is compatible with the current theme version.
+				To make sure our theme is compatible with the new version of WooCommerce, you should see our changelog or <a href="https://skygroup.ticksy.com/" target="_blank">contact us</a>.
+			</div>
+		</section>
+		
+		<!-- Adding WooCommerce Pages -->
+		<section id="woocommerce-adding-page">
+			<header>
+				<h2>Adding WooCommerce Pages</h2>
+			</header>
+			
+			<p>After activating the WooCommerce plugin, WooCommerce will automatically create its pages. In case you don't have WooCommerce pages or deleted them, you can add them by using shortcodes. You can get shortcodes <a href="https://woocommerce.com/document/woocommerce-shortcodes/" target="_blank">here</a></p>
+		</section>
+		
+		<!-- Setting Up WooCommerce -->
+		<section id="woocommerce-settings">
+			<header>
+				<h2>Setting Up WooCommerce</h2>
+			</header>
+			<p>To set up WooCommerce, you go to <strong>WooCommerce > Settings</strong> in admin panel.</p>
+			
+			<div class="one-half">
+				<h3 class="heading-index">Currency Options</h3>
+				<ol>
+					<li>In WooCommerce Settings page, you select the <strong>General</strong> tab</li>
+					<li>You find the <strong>Currency Options</strong> section and configure your currency</li>
+				</ol>
+				<p><strong>List of currencies that you can choose</strong></p>
+				<select name="woocommerce_currency" id="woocommerce_currency" style="min-width: 350px; padding: 5px;" class="wc-enhanced-select enhanced" tabindex="-1" title="Currency">
+					<option value="AED">United Arab Emirates dirham (د.إ)</option>
+					<option value="AFN">Afghan afghani (؋)</option>
+					<option value="ALL">Albanian lek (L)</option>
+					<option value="AMD">Armenian dram (AMD)</option>
+					<option value="ANG">Netherlands Antillean guilder (ƒ)</option>
+					<option value="AOA">Angolan kwanza (Kz)</option>
+					<option value="ARS">Argentine peso ($)</option>
+					<option value="AUD">Australian dollar ($)</option>
+					<option value="AWG">Aruban florin (Afl.)</option>
+					<option value="AZN">Azerbaijani manat (AZN)</option>
+					<option value="BAM">Bosnia and Herzegovina convertible mark (KM)</option>
+					<option value="BBD">Barbadian dollar ($)</option>
+					<option value="BDT">Bangladeshi taka (৳&nbsp;)</option>
+					<option value="BGN">Bulgarian lev (лв.)</option>
+					<option value="BHD">Bahraini dinar (.د.ب)</option>
+					<option value="BIF">Burundian franc (Fr)</option>
+					<option value="BMD">Bermudian dollar ($)</option>
+					<option value="BND">Brunei dollar ($)</option>
+					<option value="BOB">Bolivian boliviano (Bs.)</option>
+					<option value="BRL">Brazilian real (R$)</option>
+					<option value="BSD">Bahamian dollar ($)</option>
+					<option value="BTC">Bitcoin (฿)</option>
+					<option value="BTN">Bhutanese ngultrum (Nu.)</option>
+					<option value="BWP">Botswana pula (P)</option>
+					<option value="BYR">Belarusian ruble (old) (Br)</option>
+					<option value="BYN">Belarusian ruble (Br)</option>
+					<option value="BZD">Belize dollar ($)</option>
+					<option value="CAD">Canadian dollar ($)</option>
+					<option value="CDF">Congolese franc (Fr)</option>
+					<option value="CHF">Swiss franc (CHF)</option>
+					<option value="CLP">Chilean peso ($)</option>
+					<option value="CNY">Chinese yuan (¥)</option>
+					<option value="COP">Colombian peso ($)</option>
+					<option value="CRC">Costa Rican colón (₡)</option>
+					<option value="CUC">Cuban convertible peso ($)</option>
+					<option value="CUP">Cuban peso ($)</option>
+					<option value="CVE">Cape Verdean escudo ($)</option>
+					<option value="CZK">Czech koruna (Kč)</option>
+					<option value="DJF">Djiboutian franc (Fr)</option>
+					<option value="DKK">Danish krone (DKK)</option>
+					<option value="DOP">Dominican peso (RD$)</option>
+					<option value="DZD">Algerian dinar (د.ج)</option>
+					<option value="EGP">Egyptian pound (EGP)</option>
+					<option value="ERN">Eritrean nakfa (Nfk)</option>
+					<option value="ETB">Ethiopian birr (Br)</option>
+					<option value="EUR">Euro (€)</option>
+					<option value="FJD">Fijian dollar ($)</option>
+					<option value="FKP">Falkland Islands pound (£)</option>
+					<option value="GBP">Pound sterling (£)</option>
+					<option value="GEL">Georgian lari (ლ)</option>
+					<option value="GGP">Guernsey pound (£)</option>
+					<option value="GHS">Ghana cedi (₵)</option>
+					<option value="GIP">Gibraltar pound (£)</option>
+					<option value="GMD">Gambian dalasi (D)</option>
+					<option value="GNF">Guinean franc (Fr)</option>
+					<option value="GTQ">Guatemalan quetzal (Q)</option>
+					<option value="GYD">Guyanese dollar ($)</option>
+					<option value="HKD">Hong Kong dollar ($)</option>
+					<option value="HNL">Honduran lempira (L)</option>
+					<option value="HRK">Croatian kuna (Kn)</option>
+					<option value="HTG">Haitian gourde (G)</option>
+					<option value="HUF">Hungarian forint (Ft)</option>
+					<option value="IDR">Indonesian rupiah (Rp)</option>
+					<option value="ILS">Israeli new shekel (₪)</option>
+					<option value="IMP">Manx pound (£)</option>
+					<option value="INR">Indian rupee (₹)</option>
+					<option value="IQD">Iraqi dinar (ع.د)</option>
+					<option value="IRR">Iranian rial (﷼)</option>
+					<option value="IRT">Iranian toman (تومان)</option>
+					<option value="ISK">Icelandic króna (kr.)</option>
+					<option value="JEP">Jersey pound (£)</option>
+					<option value="JMD">Jamaican dollar ($)</option>
+					<option value="JOD">Jordanian dinar (د.ا)</option>
+					<option value="JPY">Japanese yen (¥)</option>
+					<option value="KES">Kenyan shilling (KSh)</option>
+					<option value="KGS">Kyrgyzstani som (сом)</option>
+					<option value="KHR">Cambodian riel (៛)</option>
+					<option value="KMF">Comorian franc (Fr)</option>
+					<option value="KPW">North Korean won (₩)</option>
+					<option value="KRW">South Korean won (₩)</option>
+					<option value="KWD">Kuwaiti dinar (د.ك)</option>
+					<option value="KYD">Cayman Islands dollar ($)</option>
+					<option value="KZT">Kazakhstani tenge (KZT)</option>
+					<option value="LAK">Lao kip (₭)</option>
+					<option value="LBP">Lebanese pound (ل.ل)</option>
+					<option value="LKR">Sri Lankan rupee (රු)</option>
+					<option value="LRD">Liberian dollar ($)</option>
+					<option value="LSL">Lesotho loti (L)</option>
+					<option value="LYD">Libyan dinar (ل.د)</option>
+					<option value="MAD">Moroccan dirham (د.م.)</option>
+					<option value="MDL">Moldovan leu (MDL)</option>
+					<option value="MGA">Malagasy ariary (Ar)</option>
+					<option value="MKD">Macedonian denar (ден)</option>
+					<option value="MMK">Burmese kyat (Ks)</option>
+					<option value="MNT">Mongolian tögrög (₮)</option>
+					<option value="MOP">Macanese pataca (P)</option>
+					<option value="MRO">Mauritanian ouguiya (UM)</option>
+					<option value="MUR">Mauritian rupee (₨)</option>
+					<option value="MVR">Maldivian rufiyaa (.ރ)</option>
+					<option value="MWK">Malawian kwacha (MK)</option>
+					<option value="MXN">Mexican peso ($)</option>
+					<option value="MYR">Malaysian ringgit (RM)</option>
+					<option value="MZN">Mozambican metical (MT)</option>
+					<option value="NAD">Namibian dollar ($)</option>
+					<option value="NGN">Nigerian naira (₦)</option>
+					<option value="NIO">Nicaraguan córdoba (C$)</option>
+					<option value="NOK">Norwegian krone (kr)</option>
+					<option value="NPR">Nepalese rupee (₨)</option>
+					<option value="NZD">New Zealand dollar ($)</option>
+					<option value="OMR">Omani rial (ر.ع.)</option>
+					<option value="PAB">Panamanian balboa (B/.)</option>
+					<option value="PEN">Peruvian nuevo sol (S/.)</option>
+					<option value="PGK">Papua New Guinean kina (K)</option>
+					<option value="PHP">Philippine peso (₱)</option>
+					<option value="PKR">Pakistani rupee (₨)</option>
+					<option value="PLN">Polish złoty (zł)</option>
+					<option value="PRB">Transnistrian ruble (р.)</option>
+					<option value="PYG">Paraguayan guaraní (₲)</option>
+					<option value="QAR">Qatari riyal (ر.ق)</option>
+					<option value="RON">Romanian leu (lei)</option>
+					<option value="RSD">Serbian dinar (дин.)</option>
+					<option value="RUB">Russian ruble (₽)</option>
+					<option value="RWF">Rwandan franc (Fr)</option>
+					<option value="SAR">Saudi riyal (ر.س)</option>
+					<option value="SBD">Solomon Islands dollar ($)</option>
+					<option value="SCR">Seychellois rupee (₨)</option>
+					<option value="SDG">Sudanese pound (ج.س.)</option>
+					<option value="SEK">Swedish krona (kr)</option>
+					<option value="SGD">Singapore dollar ($)</option>
+					<option value="SHP">Saint Helena pound (£)</option>
+					<option value="SLL">Sierra Leonean leone (Le)</option>
+					<option value="SOS">Somali shilling (Sh)</option>
+					<option value="SRD">Surinamese dollar ($)</option>
+					<option value="SSP">South Sudanese pound (£)</option>
+					<option value="STD">São Tomé and Príncipe dobra (Db)</option>
+					<option value="SYP">Syrian pound (ل.س)</option>
+					<option value="SZL">Swazi lilangeni (L)</option>
+					<option value="THB">Thai baht (฿)</option>
+					<option value="TJS">Tajikistani somoni (ЅМ)</option>
+					<option value="TMT">Turkmenistan manat (m)</option>
+					<option value="TND">Tunisian dinar (د.ت)</option>
+					<option value="TOP">Tongan paʻanga (T$)</option>
+					<option value="TRY">Turkish lira (₺)</option>
+					<option value="TTD">Trinidad and Tobago dollar ($)</option>
+					<option value="TWD">New Taiwan dollar (NT$)</option>
+					<option value="TZS">Tanzanian shilling (Sh)</option>
+					<option value="UAH">Ukrainian hryvnia (₴)</option>
+					<option value="UGX">Ugandan shilling (UGX)</option>
+					<option value="USD" selected="selected">United States dollar ($)</option>
+					<option value="UYU">Uruguayan peso ($)</option>
+					<option value="UZS">Uzbekistani som (UZS)</option>
+					<option value="VEF">Venezuelan bolívar (Bs F)</option>
+					<option value="VND">Vietnamese đồng (₫)</option>
+					<option value="VUV">Vanuatu vatu (Vt)</option>
+					<option value="WST">Samoan tālā (T)</option>
+					<option value="XAF">Central African CFA franc (CFA)</option>
+					<option value="XCD">East Caribbean dollar ($)</option>
+					<option value="XOF">West African CFA franc (CFA)</option>
+					<option value="XPF">CFP franc (Fr)</option>
+					<option value="YER">Yemeni rial (﷼)</option>
+					<option value="ZAR">South African rand (R)</option>
+					<option value="ZMW">Zambian kwacha (ZK)</option>
+			   </select>
+			   
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/wc_setting_currency_options.jpg" src="images/placeholder/wc_setting_currency_options.jpg" alt="Currency Options" loading="lazy" />
+			</div>
+			
+			<div class="info">
+				You can also add a custom currency symbol. Please refer <a href="https://woocommerce.com/document/add-a-custom-currency-symbol/" target="_blank">this article</a>.
+		    </div>
+			
+			<div class="one-half">
+				<h3 class="heading-index">Page Settings</h3>
+				<p>
+					After you create <a href="#woocommerce-adding-page" class="internal-link"> WooCommerce pages</a>. You will go to the Settings page to assign them.
+				</p>
+				<ul>
+					<li>To assign the Shop page, you select the <strong>Products</strong> tab</li>
+					<li>To assign the My Account, Cart and Checkout pages, you select the <strong>Advanced</strong> tab</li>
+				</ul>
+				
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/wc_setting_pages.jpg" src="images/placeholder/wc_setting_pages.jpg" alt="Setting Pages" loading="lazy" />
+			</div>
+			
+			<div class="one-half">
+				<h3 class="heading-index">Registration Options</h3>
+				<p>
+					You also make sure that you allow your customers to register on your site. You select the <strong>Accounts & Privacy</strong> tab and find the <strong>Account creation</strong> section as the screenshot.
+				</p>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/wc_setting_registration_options.jpg" src="images/placeholder/wc_setting_registration_options.jpg" alt="Registration Options" loading="lazy" />
+			</div>
+			
+			<div class="two-third">
+				<h3 class="heading-index">Product Image Sizes</h3>
+				<ol>
+					<li>You go to <strong>Appearance > Customize > WooCommerce > Product Images</strong>. You configure your product image size in there</li>
+					<li>Our default demo is configured as the screenshot</li>
+				</ol>
+			</div>
+			<div class="one-third last">
+				<img data-src="images/media/wc_setting_product_image_size.jpg" src="images/placeholder/wc_setting_product_image_size.jpg" alt="Product Image Sizes" loading="lazy" />
+			</div>
+			
+		</section>
+		
+		<!-- Adding Product -->
+		<section id="woocommerce-adding-product">
+			<header>
+				<h2>Adding Product</h2>
+			</header>
+			<div class="one-half">
+				<p><strong>Follow the steps below to add a new product</strong></p>
+				<ol>
+					<li>In admin panel, you go to <strong>Products</strong> and click the <strong>Add new product</strong> button</li>
+					<li>Input the product title and product content</li>
+					<li>Select Product Category, Product Tag</li>
+					<li>Add Featured Image and Product Gallery</li>
+					<li>In the <a href="#product-options" class="internal-link">Product Options</a> section, you can override some options in Theme Options</li>
+					<li>Next is the <a href="#product-data" class="internal-link">Product Data</a> section. This is where the majority of the product data is configured</li>
+				</ol>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/adding_product.jpg" src="images/placeholder/adding_product.jpg" alt="Adding Product" loading="lazy" />
+			</div>
+			
+			<div class="clear"></div>
+			<!-- Product options -->
+			<h3 id="product-options" class="heading-index">Product Options</h3>
+			<div class="one-half">
+				<p>With this section, you can:</p>
+				<ul>
+					<li>Override some options in Theme Options</li>
+					<li>Set layout, breadcrumb background image for individual products</li>
+					<li>Add a video for product</li>
+					<li>Add images for the 360 degree feature</li>
+					<li>Add product specifications</li>
+				</ul>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/product_options.jpg" src="images/placeholder/product_options.jpg" alt="Product Options" loading="lazy" />
+			</div>
+			
+			<div class="clear"></div>
+			<!-- Product data -->
+			<h3 id="product-data" class="heading-index">Product Data</h3>
+			<div class="one-half">
+				<p>
+					You should also read <a href="https://woocommerce.com/document/managing-products/" target="_blank">WooCommerce Documentation</a> to get more details.
+					We only have some notes that we think you need to know.
+				</p>
+			</div>
+			<div class="one-half last">
+				<img data-src="images/media/product_data.jpg" src="images/placeholder/product_data.jpg" alt="Product Data" loading="lazy" />
+				<img data-src="images/media/product_data_shipping_tab.jpg" src="images/placeholder/product_data_shipping_tab.jpg" alt="Product Data - Shipping Tab" loading="lazy" />
+			</div>
+			
+			<ol>
+				<li><strong>Adding a product on sale and a deal:</strong>
+					<ul>
+						<li>
+							With the <strong>Simple Product</strong>, you select the <strong>General</strong> tab.
+							You add a <strong>Sale Price</strong> and click the <strong>Schedule</strong> button to set up date.
+						</li>
+						<li>
+							With the <strong>Variable Product</strong>, after setting up <strong>Product Attributes</strong> in the <strong>Attributes</strong> tab, 
+							you go to the <strong>Variations</strong> tab and add <strong>New Variation</strong>.
+							With each Variation, you also click the <strong>Schedule</strong> button next to the Sale Price field to set up date.
+							<strong>Please note that</strong> product only displays the time of the first Variation.
+						</li>
+					</ul>
+				</li>
+				<li><strong>Adding Additional Information:</strong> 
+					You go to the <strong>Shipping</strong> tab. You set value of Weight and Dimensions options.
+					You can change unit by going to <strong>WooCommerce > Settings > Products</strong> tab
+				</li>
+				<li><strong>Enable/Disable Product Review:</strong> 
+					You go to the <strong>Advanced</strong> tab. You will see the <strong>Enable reviews</strong> option. Just check/uncheck it. 
+					If you want to disable the Reviews tab, you go to <strong>WooCommerce > Settings > Products > General</strong> and disable the <strong>Enable product reviews</strong> option or follow <a href="https://woocommerce.com/document/editing-product-data-tabs/" target="_blank">this article</a>.
+				</li>
+			</ol>
+			
+		</section>
+		
+		<!-- Translations -->
+		<section id="translations">
+			<header>
+				<h2>Translations</h2>
+			</header>
+			<p>
+				Emall is ready to translate by using the po file. If you want to build a multilingual site, you need to use the <a href="http://wpml.org/" target="_blank">WPML</a> plugin. 
+				Our theme does not include the WPML plugin. It is only compatible with the WPML plugin. You have to buy a license for this plugin.
+			</p>
+		</section>
+		
+		<!-- Using Po File -->
+		<section id="using-po-file">
+			<header>
+				<h2>Using Po File</h2>
+			</header>
+			<p><strong>There are 2 ways to create and edit the po file</strong></p>
+			<ol>
+				<li>Use the <a href="http://poedit.net/" target="_blank">Poedit</a> software and refer <a href="https://docs.translatehouse.org/projects/localization-guide/en/latest/guide/poedit.html" target="_blank">this document</a></li>
+				<li>Use a translation plugin, such as <a href="https://wordpress.org/plugins/loco-translate/" target="_blank">Loco Translate</a> plugin</li>
+			</ol>
+			
+			<div class="info">
+				<strong>Please note that:</strong>
+				<ul>
+					<li>You have to generate <strong>the mo file</strong> after translating</li>
+					<li>You have to set your language in <strong>Settings > General</strong>. It is the <strong>Site Language</strong> option</li>
+				</ul>
+			</div>
+		</section>
+		
+		<!-- Using WMPL -->
+		<section id="using-wpml">
+			<header>
+				<h2>Using WPML</h2>
+			</header>
+			<p>
+				In this section, you will know how to build a multilingual website by using the WPML plugin. 
+				All the information needs to get started and use it is on the <a href="https://wpml.org/" target="_blank">WPML.org</a> page.
+			</p>
+			
+			<p><strong>Below are some reference links:</strong></p>
+			<ul>
+				<li><a href="http://wpml.org/documentation/" target="_blank">WPML Documentation</a></li>
+				<li><a href="https://wpml.org/documentation/getting-started-guide/translating-widgets/" target="_blank">Translating Widgets</a></li>
+			</ul>
+			
+			<h3>Installing and Setting Up the WPML plugin</h3>
+			<p>
+				You need to install a recent version of WPML, including the <strong>String Translation, Translation Management and CMS Navigation</strong> modules.
+				After installing these plugins, you set up Languages from <strong>WPML > Languages</strong> and translate your content.
+			</p>
+			
+			<h3>Showing language switcher dropdown style on header</h3>
+			<p>You go to <strong>WPML > Languages</strong>. You enable the <strong>Custom language switchers</strong> option. Then, you click the <strong>Customize</strong> button. A popup will appear. You change the <strong>Language switcher style</strong> option to <strong>Dropdown</strong> or <strong>Dropdown click</strong>.</p>
+			<img data-src="images/media/wpml_dropdown_style.jpg" src="images/placeholder/wpml_dropdown_style.jpg" alt="Dropdown Style" loading="lazy" />
+			
+			<h3>Translating Pages and Posts</h3>
+			<p>Go to <strong>Pages</strong> and pick a page for translation. Click on the plus icon. If the page is already translated, the plus icon will be replaced by the pen icon.</p>
+			<img data-src="images/media/wpml_translating_page.jpg" src="images/placeholder/wpml_translating_page.jpg" alt="Translating pages" loading="lazy" />
+			
+			<p>WPML actually creates a new WordPress page, linked to the original one. In this new page, you can add new content as you normally do. You can also keep the original content, just translate into the new language.</p>
+			
+			<h3>Translating Categories</h3>
+			<p>To translate a category, click on the language which you want to translate it and then add a new category. Make sure the new category is linked to an original category.</p>
+			<img data-src="images/media/wpml_translating_category.jpg" src="images/placeholder/wpml_translating_category.jpg" alt="Translating categories" loading="lazy" />
+			
+			<h3>Translating Menus</h3>
+			<p>You go to <strong>Appearance > Menus</strong>. Just add a new menu. You select the language and the original menu which links to the new menu.</p>
+			<img data-src="images/media/wpml_translating_menu.jpg" src="images/placeholder/wpml_translating_menu.jpg" alt="Translating menus" loading="lazy" />
+			
+			<p class="info">
+				WPML can synchronize menus for you. This means that WPML can generate and keep in sync menus for other languages pointing to the translated versions of the pages, posts or categories.
+			</p>
+			
+			<h3>Translating the theme and other texts</h3>
+			<p>You go to <strong>WPML > String Translation</strong>. Find the text in the list and translate it. Please make sure you check the <strong>Translation is complete</strong> checkbox after translating.</p>
+			<img data-src="images/media/wpml_string_translation.jpg" src="images/placeholder/wpml_string_translation.jpg" alt="String Translation" loading="lazy" />
+			
+			<p class="info">
+				Sometimes, some texts can not be found. You need to go to <strong>WPML > Theme and Plugins localization</strong>. You scan <strong>Strings in the themes</strong>. Then, you go back to the String Translation page and find those texts again.
+			</p>
+		</section>
+		
+	</main>
+	<footer class="footer">
+		<div class="container">
+		&copy; 2025 Emall. Theme by <a title="Theme Sky" href="https://theme-sky.com/" target="_blank">https://theme-sky.com/</a></br>
+		Support center: <a title="Support Center" href="https://skygroup.ticksy.com/" target="_blank">https://skygroup.ticksy.com/</a>
+		</div>
+	</footer>
+	
+	<div id="fixed-icons" class="hidden">
+		<div class="video-tutorials icon">
+			<a href="https://www.youtube.com/watch?v=ClHfI08qSOc&list=PLbyF_EROfxJRp5KA3M6_KNXWlET3M4sZO" target="_blank" title="Tutorial Videos"><i class="fab fa-youtube"></i></a>
+		</div>
+	</div>
+	
+	<!-- Register Scripts -->
+	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
